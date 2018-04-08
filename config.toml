@@ -1,4 +1,17 @@
 baseURL = "https://aman-pro.firebaseapp.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Aman Gautam"
 theme = "hyde-hyde"
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 100
+
+[params]
+	description="Product Development, Entrepreneurship"
+	authorimage="https://s.gravatar.com/avatar/1da04b0aae7bbfe04b46ccdca2430845?s=200"
